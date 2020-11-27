@@ -53,7 +53,7 @@ def matrix_lookup(matrix, row, column)
   matrix = matrix
   row = row
   colm = colmn
-  matrix = sorted_matrix[row][column]
+  content = matrix[row][column]
 end
 sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 matrix_lookup(sorted_matrix, 2, 2)
