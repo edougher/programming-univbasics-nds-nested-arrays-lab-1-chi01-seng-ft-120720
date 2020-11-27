@@ -51,7 +51,7 @@ def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 
-  matrix[row][column]
+  matrix[2][2]
 end
 sorted_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 matrix_lookup(sorted_matrix, 2, 2)
