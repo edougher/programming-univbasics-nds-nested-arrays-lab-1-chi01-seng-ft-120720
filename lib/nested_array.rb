@@ -42,7 +42,9 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
 CONVENTIONAL_PRODUCE.sorted
-ORGANIC_PRODUCE.sorted_matrix
+ORGANIC_PRODUCE.sorted
+sorted_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+sorted_matrix
 
 end
 
