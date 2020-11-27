@@ -52,7 +52,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   new_matrix = matrix
   new_row = row
-  new_colmn = colmn
+  new_column = column
   content = matrix[new_row][new_column]
   content
 end
